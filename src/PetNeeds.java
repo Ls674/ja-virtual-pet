@@ -1,5 +1,7 @@
+
+
 public class PetNeeds {
-    private String petName;
+    public String petName;
     private int hunger;
     private int thirst;
     private int lonliness;
@@ -31,5 +33,10 @@ public class PetNeeds {
         hapiness += 1;
     }
     
-
+public String toString() {
+String.format("Name %s\n,    " + hunger, thirst, lonliness, bladder, exhaustion, dirtiness, hapiness);
+String S; 
+S = "Name: " + petName;
+return S;
+}
 }
