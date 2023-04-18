@@ -1,17 +1,19 @@
+import java.util.Scanner;
+
+
 public class Learning {
     public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("What is your name? ");
+            String name = scanner.nextLine();
+            System.out.println("How old are you? ");
+            int age = scanner.nextInt();
 
-        int x = 123;
-        double y = 3.14;
-        boolean z = true;
-        char symbol = '@'
-        String name = "Liam"
-
-        System.out.println("Hello " +name);
-
-
-
-
-    }
+            System.out.println("Hello"+name);
+            System.out.println("You are "+age+" years old!");
+        }
     
+
 }
+}
+ 
