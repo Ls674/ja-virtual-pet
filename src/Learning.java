@@ -9,7 +9,7 @@ public class Learning {
             System.out.println("How old are you? ");
             int age = scanner.nextInt();
 
-            System.out.println("Hello"+name);
+            System.out.println("Hello "+name);
             System.out.println("You are "+age+" years old!");
         }
     
