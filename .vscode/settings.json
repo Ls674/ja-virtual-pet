@@ -4,5 +4,8 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "python.analysis.extraPaths": [
+        "./discord.py"
+    ]
 }
