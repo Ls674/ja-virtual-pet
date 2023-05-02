@@ -1,15 +1,12 @@
-
-
-
 public class PetNeeds {
     public String petName;
-    private int hunger;
-    private int thirst;
-    private int lonliness;
-    private int bladder;
-    private int exhaustion;
-    private int dirtiness;
-    private int hapiness;
+    public int hunger;
+    public int thirst;
+    public int lonliness;
+    public int bladder;
+    public int exhaustion;
+    public int dirtiness;
+    public int hapiness;
 
     public PetNeeds(String newPetName) {
         petName = newPetName;
@@ -83,9 +80,24 @@ public class PetNeeds {
     public int getThirst() {
         return thirst;
     }
-
-
-
+    public int getHunger() {
+        return hunger;
+    }
+    public int getLonliness() {
+        return lonliness;
+    }
+    public int getBladder() {
+        return bladder;
+    }
+    public int getExhaustion() {
+        return exhaustion;
+    }
+    public int getDirtiness() {
+        return dirtiness;
+    }
+    public int getHapiness() {
+        return hapiness;
+    }
 }
 
 
