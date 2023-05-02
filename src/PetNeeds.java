@@ -2,11 +2,6 @@
 
 
 public class PetNeeds {
-    public static void main(String[]args) {}
-    public PetNeeds() {
-    }
-
-
     public String petName;
     private int hunger;
     private int thirst;
@@ -17,14 +12,14 @@ public class PetNeeds {
     private int hapiness;
 
     public PetNeeds(String newPetName) {
-    petName = newPetName;
-    hunger = 1;
-    thirst = 1;
-    lonliness = 1;
-    bladder = 1;
-    exhaustion = 1;
-    dirtiness = 1;
-    hapiness =1;
+        petName = newPetName;
+        hunger = 1;
+        thirst = 1;
+        lonliness = 1;
+        bladder = 1;
+        exhaustion = 1;
+        dirtiness = 1;
+        hapiness =1;
     }
     
 
@@ -39,92 +34,56 @@ public class PetNeeds {
         hapiness += 1;
     }
     
-public String toString() {
-String.format("Name %s\n,    " + hunger, thirst, lonliness, bladder, exhaustion, dirtiness, hapiness);
-String S; 
-S = "Name: " + petName;
-return S;
-}
+    public void changehunger(int newHunger) {
+        hunger += newHunger;
+    }
+    public void changeThirst(int newThirst) {
+        thirst += newThirst;
+    }
+    public void changeLonliness(int newLonliness) {
+        lonliness += newLonliness;
+    }
+    public void changeBladder(int newBladder) {
+        bladder += newBladder;
+    }
+    public void changeDirtiness(int newDirtiness) {
+        dirtiness = newDirtiness;
+    }
+    public void changeHappiness(int newHapiness) {
+        hapiness = newHapiness;
+    }
+    
+    public void setName(String newName) {
+        this.petName = newName;
+    }
+    public void setThirst(int newThirst) {
+        this.thirst = newThirst;
+    }
+    public void setHunger(int newHunger) {
+        this.hunger = newHunger;
+    }
+    public void setLonliness(int newLonliness) {
+        this.lonliness = newLonliness;
+    }
+    public void setBladder(int newBladder) {
+        this.bladder = newBladder;
+    }
+    public void setExhaustion(int newExhaustion) {
+        this.exhaustion = newExhaustion;
+    }
+    public void setDirtiness(int newDirtiness) {
+        this.dirtiness = newDirtiness;
+    }
+    public void setHapiness(int newHapiness) {
+        this.hapiness = newHapiness;
+    }
+    public String getName() {
+        return petName;
+    }
+    public int getThirst() {
+        return thirst;
+    }
 
-
-public String getPetName() {
-    return petName;
-}
-
-
-public void setPetName(String petName) {
-    this.petName = petName;
-}
-
-
-public int getHunger() {
-    return hunger;
-}
-
-
-public void setHunger(int hunger) {
-    this.hunger = hunger;
-}
-
-
-public int getThirst() {
-    return thirst;
-}
-
-
-public void setThirst(int thirst) {
-    this.thirst = thirst;
-}
-
-
-public int getLonliness() {
-    return lonliness;
-}
-
-
-public void setLonliness(int lonliness) {
-    this.lonliness = lonliness;
-}
-
-
-public int getBladder() {
-    return bladder;
-}
-
-
-public void setBladder(int bladder) {
-    this.bladder = bladder;
-}
-
-
-public int getExhaustion() {
-    return exhaustion;
-}
-
-
-public void setExhaustion(int exhaustion) {
-    this.exhaustion = exhaustion;
-}
-
-
-public int getDirtiness() {
-    return dirtiness;
-}
-
-
-public void setDirtiness(int dirtiness) {
-    this.dirtiness = dirtiness;
-}
-
-
-public int getHapiness() {
-    return hapiness;
-}
-
-
-public void setHapiness(int hapiness) {
-    this.hapiness = hapiness;
-}
 
 
 }
