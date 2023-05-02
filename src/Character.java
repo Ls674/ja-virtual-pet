@@ -9,7 +9,7 @@ public class Character {
         this.age = age;
     }
     public String toString(){
-        return "This characters name is " + name;
+        return "This characters name is " + name + " who is a " + job + " and is " + age + " years old";
     }
 
 
