@@ -20,6 +20,9 @@ public class App {
         Character myCharacter = new Character(name, job, age); 
         System.out.println(myCharacter);
 
+
+        //while character is alive they can preferm actions
+        //While dead game over
     }
        
     }
