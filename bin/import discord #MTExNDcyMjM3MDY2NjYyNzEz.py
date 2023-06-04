@@ -7,4 +7,4 @@ Gilbert27 = commands.Bot(command_prefix=".",intents=intents)
 async def say(ctx,**message):
     ctx.reply(message)
 
-Gilbert27.run("MTExNDcyMjM3MDY2NjYyNzEzMg.GlYMZ1.QeWvurQtAwOfZbwg1qJgUR-tplrET8VKc4CbyU")
+Gilbert27.run("MTExNDcyMjM3MDY2NjYyNzEzMg.G-xQ8F.x-Ymsg7zJ9GYntwGXHfpeIyCu1rtapR1e5gA6w")
